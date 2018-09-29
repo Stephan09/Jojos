@@ -1,6 +1,5 @@
 const client = new Discord.Client();
-const DBM = {};
-const DiscordJS = DBM.DiscordJS = require('discord.js');
+const Discord = require('discord.js');
 
 //---------------------------------------------------------------------
 // Bot
