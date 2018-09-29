@@ -1,5 +1,5 @@
 const client = new Discord.Client();
-const Discord = require('discord.js');
+const DiscordJS = DBM.DiscordJS = require('discord.js');
 const DBM = {};
 
 //---------------------------------------------------------------------
