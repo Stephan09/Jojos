@@ -5,7 +5,7 @@
 "main": "stephan.js",
 "scripts": {
    "start": "node stephan.js"
-};
+},
 "dependencies": {
           "discord.js": "11.1.0",
       "request": "2.81.0"
