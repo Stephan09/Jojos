@@ -103,7 +103,7 @@ client.on('message', message => {
 	 
 	         var embed = new Discord.RichEmbed()
 			 
-			 .addField('here is my list with commands: ', '!help -gives help commands. !meida  -gives social media commands.')
+			 .addField('here is my list with commands: ', '!help -gives help commands. !media  -gives social media commands.')
 			 .setColor('GREEN')
 			 
 			message.channel.sendEmbed(embed);
