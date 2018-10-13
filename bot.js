@@ -52,7 +52,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 	
-	if(message.content.toLowerCase() === '<@497685236763590656>') { if(message.author.bot) { return; }
+	if(message.content.toLowerCase() === '<@498113087765872646>') { if(message.author.bot) { return; }
 	 
 	         var embed = new Discord.RichEmbed()
 			 
