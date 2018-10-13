@@ -71,7 +71,7 @@ client.on('message', message => {
 	 
 	         var embed = new Discord.RichEmbed()
 			 
-			 .addField('Hello! I am JoJos Bot:smile:  ', 'At the moment I am a beta bot and will be programmed by Stephan. I dont have many commands yet, but some will come later:wink: make: !help .')
+			 .addField('Hello! I am JoJos Bot:smile:  ', 'At the moment I am a beta bot and will be programmed by Stephan. I dont have many commands yet, but some will come later:wink: make:!help.')
 			 .setColor('GREEN')
 			 
 			message.channel.sendEmbed(embed);
