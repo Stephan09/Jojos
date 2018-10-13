@@ -12,8 +12,13 @@ const prefix = '!';
 
 
 client.on('ready', () => {
-
-
+  client.user.setStatus('available')
+    client.user.setPresence({
+        game: {
+            name: 'Creativerse',
+            type: "PLAYING",
+        }
+     });    
 
     console.log('I am ready!');
 
@@ -48,15 +53,6 @@ client.on('message', message => {
 
 
 
-client.on('ready', () => {
-    client.user.setStatus('available')
-    client.user.setPresence({
-        game: {
-            name: 'Creativerse',
-            type: "PLAYING",
-        }
-    });
-});    
 
 
 
