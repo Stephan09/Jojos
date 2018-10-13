@@ -48,6 +48,18 @@ client.on('message', message => {
 
 
 
+client.on('ready', () => {
+    client.user.setStatus('available')
+    client.user.setPresence({
+        game: {
+            name: 'Creativerse',
+            type: "PLAYING",
+        }
+    });
+});    
+
+
+
 
 
 client.on('message', message => {
