@@ -24,20 +24,6 @@ client.on('ready', () => {
 
 
  
-client.on('message', message => {
-	
-	if(message.content.toLowerCase() === prefix + 'steam') { if(message.author.bot) { return; }
-	 
-	         var embed = new Discord.RichEmbed()
-			 
-			 .addField('here is my list with commands: ', '!help -gives help commands.')
-			 .setColor('GREEN')
-			 
-			message.channel.sendEmbed(embed);
-	
-	}
-	
-});
 
 
 client.on('message', message => {
@@ -68,7 +54,7 @@ client.on('message', message => {
 
     if (message.content === prefix + 'steam') {
 
-       message.channel.send('here is the link to the steam Forum: https://steamcommunity.com/app/280790/ ;)');
+       message.channel.send('Here ist the link to the Steam forum: https://steamcommunity.com/app/280790/ ;)');
 
        }
 }); 
