@@ -19,11 +19,6 @@ client.on('ready', () => {
             type: "PLAYING",
         }
      });    
-
-    console.log('I am ready!');
-
-
-
 });
 
 
