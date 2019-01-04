@@ -43,7 +43,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === prefix + 'forum') {
-       message.channel.send('Here ist the link to the Steam forum: https://steamcommunity.com/app/280790/ ;)');
+       message.channel.send('Here is the link to the Steam forum: https://steamcommunity.com/app/280790/ ;)');
        }
 }); 
 
@@ -51,7 +51,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === prefix + 'twitch') {
-       message.channel.send('Here ist the link to Playfulcorp twitch channel: https://www.twitch.tv/playfulcorp ;)');
+       message.channel.send('Here is the link to Playfulcorp twitch channel: https://www.twitch.tv/playfulcorp ;)');
        }
 }); 
 
@@ -59,7 +59,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === prefix + 'twitter') {
-       message.channel.send('Here ist the link to Creativerse twitter channel: https://twitter.com/creativersegame ;)');
+       message.channel.send('Here is the link to Creativerse twitter channel: https://twitter.com/creativersegame ;)');
        }
 }); 
 
